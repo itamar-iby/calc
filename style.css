@@ -1,0 +1,44 @@
+table.calc
+{
+     background-color: rgb(173, 173, 164);
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+}
+input.calc
+{
+     width: 100%;
+     margin: 5px;
+}
+#screen
+{
+margin-left: 14%;
+width: 100%;
+}
+#rzl
+{
+margin-left: 14%;
+width: 100%;
+}
+.calculator
+{
+   border: 2px solid black;
+   margin-left: auto;
+   margin-right:auto;
+   width: 180px;
+   height: 25%;
+}
+#tdwith
+{
+    width: 25%;
+}
+.btn
+{
+   width: 100% ;
+}
+#changeColor
+{
+ width: 7%;
+ margin-left: 46%;
+ margin-top: 1%;
+}

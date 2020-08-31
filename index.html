@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="a.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <fieldset>
+        <div class="calculator">
+        <table class="calc" id="tabel" cellpadding=4>
+        <tr><td colspan=3><input class="btn btn-outline-dark" id="screen" type="text"></td></tr>
+        <tr>
+        <td id="tdwith"><input  class="btn btn-outline-dark" type="button" value=1 onclick="pushButton(this.value);"></td id="tdwith">
+        <td id="tdwith"><input  class="btn btn-outline-dark" type="button" value=2 onclick="pushButton(this.value);"></td id="tdwith">
+        <td id="tdwith"><input  class="btn btn-outline-dark" type="button" value=3 onclick="pushButton(this.value);"></td id="tdwith">
+        <td id="tdwith"><input  class="btn btn-outline-dark" type="button" value='/' onclick="pushButton(this.value);"></td id="tdwith">
+        </tr>
+        <tr>
+        <td id="tdwith"><input  class="btn btn-outline-dark" type="button" value=4 onclick="pushButton(this.value);"></td id="tdwith">
+        <td id="tdwith"><input  class="btn btn-outline-dark" type="button" value=5 onclick="pushButton(this.value);"></td id="tdwith">
+        <td id="tdwith"><input  class="btn btn-outline-dark" type="button" value=6 onclick="pushButton(this.value);"></td id="tdwith">
+        <td id="tdwith"><input  class="btn btn-outline-dark" type="button" value='*' onclick="pushButton(this.value);"></td id="tdwith">
+        </tr>
+        <tr>
+        <td id="tdwith"><input  class="btn btn-outline-dark" type="button" value=7 onclick="pushButton(this.value);"></td id="tdwith">
+        <td id="tdwith"><input  class="btn btn-outline-dark" type="button" value=8 onclick="pushButton(this.value);"></td id="tdwith">
+        <td id="tdwith"><input  class="btn btn-outline-dark" type="button" value=9 onclick="pushButton(this.value);"></td id="tdwith">
+        <td id="tdwith"><input  class="btn btn-outline-dark" type="button" value='-' onclick="pushButton(this.value);"></td id="tdwith">
+        </tr>
+        <tr>
+        <td id="tdwith"><input  class="btn btn-outline-dark" type="button" value='.' onclick="pushButton(this.value);"></td id="tdwith">
+        <td id="tdwith"><input  class="btn btn-outline-dark" type="button" value=0 onclick="pushButton(this.value);"></td id="tdwith">
+        <td id="tdwith"><input  class="btn btn-outline-dark" type="button" value='C' onclick="pushButton(this.value);"></td id="tdwith">
+        <td id="tdwith"><input  class="btn btn-outline-dark" type="button" value='+' onclick="pushButton(this.value);"></td>
+        </tr>
+        <tr>
+        <td colspan=3><input class="btn btn-outline-dark" id="rzl" type="button" value='=' onclick="calculate(document.getElementById('screen').value);"></td></tr>
+        </table> </div>
+
+        <table class="calc" id="tabel" cellpadding=4>
+        <button type="button" id="changeColor" class="btn btn-secondary" onclick="document.getElementById('tabel').style.background = '#9ad496' " >Change color</button>
+</body>
+</html>
